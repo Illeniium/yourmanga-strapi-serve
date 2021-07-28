@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/manga-products",
+      "handler": "manga-product.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/manga-products/count",
+      "handler": "manga-product.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/manga-products/:id",
+      "handler": "manga-product.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/manga-products",
+      "handler": "manga-product.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/manga-products/:id",
+      "handler": "manga-product.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/manga-products/:id",
+      "handler": "manga-product.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
